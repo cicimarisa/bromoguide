@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img{
+	border-radius: 50%;
+}
+
+.cover{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    background: url(background.png);
+    background-position: -200px 75%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 500px;
+    background-size: auto 550px;
+    background-repeat: no-repeat;
+}
+
+
+#heroDesc h1{
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+	text-align: right;
+	text-shadow: 0 0 1px white;
+}
+
+#heroDesc h2{
+    background: #374C68;
+    width: 550px;
+    padding: 20px;
+	color: white;
+	text-align: right;
+}
+
+.activities{
+	background: rgba(225, 231, 219, 0.29);
+}
+
+.activities h1{
+    text-align: right;
+	margin:0;
+	padding: 40px 20px;
+}
+
+.activitiesDesc{
+	font-weight: bold;
+	text-align: left;
+}
+
+.activitiesList{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 0 0 30px 0;
+}
+
+.activitiesDescHighlight{
+	font-weight: bold;
+}
+
+#photographyImage{
+    width: 176px;
+	margin-top: -35px;
+}
+
+#jeepImage{
+	width: 250px;
+}
+
+#coupleImage{
+	width: 150px;
+}
+
+#activitiesJeep{
+	grid-column-start: 3;
+    grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	margin: -35px 0 0 -50px;
+    width: 300px;
+}
+
+#activitiesJeep p{
+	text-align: center;
+}
+
+#activitiesCouple{
+	grid-column-start: 2;
+    grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    width: 200px;
+	margin: 48px 0 0 -100px;
+}
+
+#activitiesPhotography{
+	background: black;
+	height: 70px;
+	width: 525px;
+}
+
+#activitiesListItemsDesc{
+	display: flex;
+	flex-direction: row;
+	margin: -20px 0 0 100px;
+}
+
+#activitiesListItemsDesc p{
+	padding : 20px 0 0 20px;
+	color: white;
+}
+
+.guide{
+    width: 600px;
+	padding: 20px;
+    margin-left: 0;
+    display: flex;
+	background-color:rgb(164, 166, 181, 0.51);
+	border-bottom: 20px solid #A1A3B1;
+	border-radius: 0 0 10px 0;
+	align-items: center;
+}
+
+.guide img{
+    width: 150px;
+    height: 150px;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+.guideDesc{
+	text-align: left;
+}
+
+.guideDesc p{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.guideDesc h4{
+	color: white;
+	font-weight: bold;
+}
+
+.footer{
+	margin-bottom: 20px;
+	text-align: left;
+}
