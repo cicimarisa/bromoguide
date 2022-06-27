@@ -58,6 +58,7 @@ img{
 
 .activitiesList{
 	display: flex;
+	flex-direction: column;
 	padding: 30px 0;
 }
 
@@ -85,7 +86,7 @@ img{
 }
 
 #activitiesJeep{
-	margin: -35px 0 0 50px;
+	margin: 0 0 0 11%;
     width: 300px;
 }
 
@@ -94,7 +95,7 @@ img{
 }
 
 #activitiesCouple{
-	margin: 48px 0 0 50px;
+	margin: 48px 0 0 20%;
 	width: 200px;
 }
 
@@ -151,7 +152,7 @@ img{
 	text-align: left;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 700px) {
 	.activitiesList{
 		flex-direction: column;
 	}
@@ -164,14 +165,14 @@ img{
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1200px) {
 	.activitiesList{
-		flex-direction: column;
+		flex-direction: row;
 	}
-	#activitiesJeep{
-		margin: 0 0 0 11%;
+	#activitiesJeep{	
+		margin: -35px 0 0 50px;
 	}
 	#activitiesCouple{
-		margin-left: 20%;
+		margin-left: 50px;
 	}
 }
