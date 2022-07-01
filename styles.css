@@ -101,8 +101,8 @@ img{
 
 #activitiesPhotography{
 	background: black;
-	min-height: 70px;
 	height: 89px;
+	width: 500px;
 }
 
 #activitiesListItemsDesc{
